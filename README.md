@@ -36,16 +36,16 @@ This project is intended for:
 
 ## 🗂 Project Structure
 
-- data/
-</br> This folder contains the raw datasets used in the project. Specifically, it holds the CSV files of New York Times headlines from 2017 to 2020:
+- data/ </br>
+This folder contains the raw datasets used in the project. Specifically, it holds the CSV files of New York Times headlines from 2017 to 2020:
   - new_york_times_stories_2017.csv
   - new_york_times_stories_2018.csv
   - new_york_times_stories_2019.csv
   - new_york_times_stories_2020.csv
 
-- notebooks/
+- notebooks/ </br>
 This directory includes the main Jupyter Notebook file used for data preprocessing, TF-IDF transformation, PCA dimensionality reduction, clustering, and visualization:
-- nyt_headline_clustering.ipynb
+  - nyt_headline_clustering.ipynb
 
 - app/
 Contains the interactive Dash web application for exploring the PCA visualizations and cluster results:

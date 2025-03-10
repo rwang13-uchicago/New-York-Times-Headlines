@@ -1,2 +1,2 @@
-# New-York-Times-Headlines-DIGS-Final-Project
+# DIGS 30004 Final Project: New York Times Headlines Clustering
 

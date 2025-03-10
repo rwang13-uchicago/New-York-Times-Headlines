@@ -1,2 +1,0 @@
-Credit:
-- This project uses ChatGPT for experimentation purposes and has credited the original source for codes and texts I personally did not generate.

@@ -1,3 +1,3 @@
-Credit: </br>
-This project uses ChatGPT for experimentation purposes. </br>
+Credit: 
+This project uses ChatGPT for experimentation purposes. 
 I have credited the original source for codes and texts I personally did not generate.

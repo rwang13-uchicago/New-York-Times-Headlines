@@ -1,4 +1,5 @@
 # Franklin Wang - DIGS 30004 Final Project
+(Credit: The following READ ME file is generated with the help of ChatGPT.)
 
 # 📰 NYT Headline Clustering (2017–2020)
 

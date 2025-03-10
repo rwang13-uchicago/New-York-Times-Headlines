@@ -38,10 +38,10 @@ This project is intended for:
 
 - data/
 This folder contains the raw datasets used in the project. Specifically, it holds the CSV files of New York Times headlines from 2017 to 2020:
-- new_york_times_stories_2017.csv
-- new_york_times_stories_2018.csv
-- new_york_times_stories_2019.csv
-- new_york_times_stories_2020.csv
+  - new_york_times_stories_2017.csv
+  - new_york_times_stories_2018.csv
+  - new_york_times_stories_2019.csv
+  - new_york_times_stories_2020.csv
 
 - notebooks/
 This directory includes the main Jupyter Notebook file used for data preprocessing, TF-IDF transformation, PCA dimensionality reduction, clustering, and visualization:

@@ -35,4 +35,27 @@ This project is intended for:
 ---
 
 ## 🗂 Project Structure
+data/
+This folder contains the raw datasets used in the project. Specifically, it holds the CSV files of New York Times headlines from 2017 to 2020:
+- new_york_times_stories_2017.csv
+- new_york_times_stories_2018.csv
+- new_york_times_stories_2019.csv
+- new_york_times_stories_2020.csv
+
+notebooks/
+This directory includes the main Jupyter Notebook file used for data preprocessing, TF-IDF transformation, PCA dimensionality reduction, clustering, and visualization:
+- nyt_headline_clustering.ipynb
+
+visuals/
+Stores the output visualizations generated during the project. These include:
+- Word clouds for individual years and clusters
+- PCA scatterplots (e.g., 2D or 3D)
+- Subfolder cluster_wordclouds/ which contains word cloud images for each K-Means cluster (e.g., cluster_0.png, cluster_1.png, etc.)
+requirements.txt
+- A list of Python dependencies needed to run the code and app (e.g., pandas, scikit-learn, plotly, dash, etc.)
+
+README.md
+- This file provides an overview of the project, including objectives, methods, visualizations, usage instructions, and documentation.
+
+
 

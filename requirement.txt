@@ -1,0 +1,10 @@
+# Required Python packages for NYT Headline Clustering Project
+
+dash              # For building interactive web applications (used in optional dashboard)
+matplotlib        # For creating static visualizations such as Elbow plots and word clouds
+numpy             # For numerical operations and array handling
+pandas            # For loading and preprocessing datasets
+plotly            # For interactive visualizations including PCA scatter plots
+scikit-learn      # For TF-IDF vectorization, PCA, and KMeans clustering
+seaborn           # For attractive statistical plotting (e.g., cluster distributions)
+wordcloud         # For generating word cloud visualizations from headlines

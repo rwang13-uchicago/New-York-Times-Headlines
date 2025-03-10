@@ -1,1 +1,2 @@
-# New-York-Times-Headlines
+# New-York-Times-Headlines-DIGS-Final-Project
+

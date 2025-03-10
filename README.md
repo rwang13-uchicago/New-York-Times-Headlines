@@ -65,3 +65,72 @@ This file provides an overview of the project, including objectives, methods, vi
 
 - LICENSE </br>
 An optional file specifying the license for my project.
+
+---
+
+## 🛠️ Installation Instructions
+
+To run this project locally, follow these steps:
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/yourusername/nyt-headline-clustering.git
+cd nyt-headline-clustering
+```
+
+### 2. (Optional) Create a virtual environment
+
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows use: venv\Scripts\activate
+```
+
+### 3. Install required Python packages
+
+```bash
+pip install -r requirements.txt
+```
+
+If you don’t have a `requirements.txt` yet, you can create one with the following:
+
+```txt
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+plotly
+wordcloud
+dash
+```
+
+---
+
+## 🚀 Usage Guide
+
+### ▶️ To run the main notebook:
+
+Open the file `nyt_headline_clustering_cleaned.ipynb` using Jupyter Notebook, JupyterLab, or VS Code with the Jupyter extension. Run all cells to execute:
+
+- Data loading (NYT headlines from 2017–2020)
+- Text cleaning and TF-IDF transformation
+- Dimensionality reduction using PCA
+- Clustering using K-Means
+- Multiple visualizations (PCA scatter plots, word clouds, elbow method)
+- Critical analysis and findings
+
+### 🌐 To launch the interactive Dash app (if included):
+
+```bash
+python nyt_dashboard.py
+```
+
+Then open your browser and go to:
+
+```
+http://127.0.0.1:8050/
+```
+
+> **Note**: If the Dash app is not included, you can ignore this section.
+

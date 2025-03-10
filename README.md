@@ -36,6 +36,7 @@ This project is intended for:
 
 ## 🗂 Project Structure
 data/
+</br>
 This folder contains the raw datasets used in the project. Specifically, it holds the CSV files of New York Times headlines from 2017 to 2020:
 - new_york_times_stories_2017.csv
 - new_york_times_stories_2018.csv

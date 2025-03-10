@@ -43,13 +43,9 @@ This folder contains the raw datasets used in the project. Specifically, it hold
   - new_york_times_stories_2019.csv
   - new_york_times_stories_2020.csv
 
-- notebooks/ </br>
+- notebook/ </br>
 This directory includes the main Jupyter Notebook file used for data preprocessing, TF-IDF transformation, PCA dimensionality reduction, clustering, and visualization:
   - nyt_headline_clustering.ipynb
-
-- app/ </br>
-Contains the interactive Dash web application for exploring the PCA visualizations and cluster results:
-  - app.py
   
 - visuals/ </br>
 Stores the output visualizations generated during the project. These include:
@@ -62,9 +58,6 @@ Stores the output visualizations generated during the project. These include:
 
 - README.md </br>
 This file provides an overview of the project, including objectives, methods, visualizations, usage instructions, and documentation.
-
-- LICENSE </br>
-An optional file specifying the license for my project.
 
 ---
 
@@ -119,18 +112,3 @@ Open the file `nyt_headline_clustering_cleaned.ipynb` using Jupyter Notebook, Ju
 - Clustering using K-Means
 - Multiple visualizations (PCA scatter plots, word clouds, elbow method)
 - Critical analysis and findings
-
-### 🌐 To launch the interactive Dash app (if included):
-
-```bash
-python nyt_dashboard.py
-```
-
-Then open your browser and go to:
-
-```
-http://127.0.0.1:8050/
-```
-
-> **Note**: If the Dash app is not included, you can ignore this section.
-

@@ -1,4 +1,4 @@
-# DIGS 30004 Final Project: New York Times Headlines Clustering
+# Franklin Wang - DIGS 30004 Final Project
 
 # 📰 NYT Headline Clustering (2017–2020)
 
